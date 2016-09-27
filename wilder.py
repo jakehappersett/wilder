@@ -1,10 +1,13 @@
 #!/usr/bin/env python
 
 import praw
+import os
 from os import *
 import urllib
 from subprocess import call
 r = praw.Reddit('gonewild top post bot')
+jpg = "jpg"
+png = "png"
 
 files = os.listdir(os.curdir)
 for f in files: 
